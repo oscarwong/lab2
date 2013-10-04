@@ -5,3 +5,66 @@
 /* reset CSS file to reset browser default styling to a consistent starting point */
 @import url(reset.css);
 
+body {
+    background-image: url(../img/texture-light.png);
+    background-repeat: repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.content-box {
+	width: 80%;
+	background-color: #FFF;
+	margin: 0 auto;
+	box-shadow: 1px 1px 4px #555;
+}
+
+.company-name {
+	font-size: 36px;
+	color: #116189;
+	font-family: 'Boogaloo', sans-serif;
+	margin-top: 10px;
+}
+
+.gears-image {
+	float: left;
+	margin-right: 20px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+.motto {
+	font-size: 120%;
+	font-style: italic;
+	margin: 12px;
+}
+
+nav ul {
+	background-color: #D74710;
+	border-radius: 5px;
+	margin: 30px auto;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	padding: 7px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 120%;
+	text-align: left;
+}
+
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #FF9D45;
+	border-radius: 5px;
+}
