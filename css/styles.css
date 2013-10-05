@@ -101,3 +101,25 @@ nav a:hover {
 .footer a:hover {
 	text-decoration: underline;
 }
+
+.our-story {
+	font-size: 30px;
+	color: #116189;
+	font-weight: bold;
+}
+
+.p1 {
+	margin-top: -10px;
+}
+
+.our-team {
+	font-size: 30px;
+	color: #116189;
+	font-weight: bold;
+}
+
+.amychen {
+	float: left;
+	color: #116189;
+	font-weight: bold;
+}
