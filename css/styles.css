@@ -149,3 +149,47 @@ nav a:hover {
 .laterNames {
 	margin-top: -10px;
 }
+
+.banner {
+	background-color: #FBEAE3;
+	border-radius: 5px;
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.banner a:link,
+.banner a:visited {
+	text-decoration: none;
+}
+
+.banner a:hover {
+	text-decoration: underline;
+}
+
+.basicwidget {
+	float: left;
+	padding-top: 10px;
+	margin-right: 10px;
+}
+
+dt {
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.widgetpicture {
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+dd {
+	margin-top: -3px;
+}
+
+.second {
+	font-style: italic;
+	margin-top: 1px;
+}

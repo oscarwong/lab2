@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Products page</title>
+		<meta name="description" content="Buy our products!">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/styles.css">
+		<meta name="author" content="1231530">
+		<link rel="shortcut icon" href="img/logo-small.png">
+	</head>
+	<body>
+		<div class="content-box">
+			<!--#include virtual="inc/header.html" -->
+
+			<div class="banner">
+				<p><a href="sales@widgetsrus.com">Send us email</a> or call us to order any of our products.</p>
+			</div>
+
+			<p><img class="basicwidget" src="img/basic-widget.png" alt="basicwidget"></p>
+
+			<dl>
+				<dt>Basic Widget</dt>
+				<dd>This is just your basic widget, nothing fancy</dd>
+				<dd class="second">$10 each; $100 box of 20</dd>
+			</dl>
+
+			<p><img class="widgetpicture" src="img/super-widget.png" alt="superwidget"></p>
+
+			<dl>
+				<dt>Super Widget</dt>
+				<dd>A higher-end widget that is really super</dd>
+				<dd class="second">$20 each; $200 box of 20</dd>
+			</dl>
+
+			<p><img class="widgetpicture" src="img/super-duper-widget.png" alt="superduperwidget"></p>
+
+			<dl>
+				<dt>Super-Duper Widget</dt>
+				<dd>Our premium widget, the best of its kind!</dd>
+				<dd class="second">$30 each; $300 box of 20</dd>
+			</dl>
+			<!--#include virtual="inc/footer.html" -->
+
+		</div>
+
+	</body>
+</html>
