@@ -17,6 +17,13 @@ p {
 	padding: 10px;
 }
 
+h2 {
+	padding: 10px;
+	font-size: 30px;
+	color: #116189;
+	font-weight: bold;
+}
+
 .content-box {
 	width: 80%;
 	background-color: #FFF;
@@ -112,14 +119,33 @@ nav a:hover {
 	margin-top: -10px;
 }
 
-.our-team {
-	font-size: 30px;
+.amychen {
+	margin-top: -10px;
+}
+
+.names {
+	font-size: 18px;
 	color: #116189;
 	font-weight: bold;
 }
 
-.amychen {
+.amychenpic {
 	float: left;
-	color: #116189;
-	font-weight: bold;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.descriptions {
+	margin-top: -20px;
+}
+
+.picture {
+	float: left;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.laterNames {
+	margin-top: -10px;
 }
